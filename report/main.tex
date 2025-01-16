@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{margin=0.4in}
+\usepackage{helvet} % This package provides Helvetica, a sans-serif font
+\renewcommand{\familydefault}{\sfdefault} % Sets the default font to sans-serif
+\usepackage{pgfplots}
+\usepackage{adjustbox}
+
+\begin{document}
+
+\noindent\small Sleep Staging Report | Report as of 16 Jan 2025 15:33, EST | Author: Andrew Smith
+\vspace{5pt}
+\hrule
+\vspace{10pt}
+\noindent\Huge\textbf{Courtney January 2025}
+\vspace{40pt}
+\hrule
+  
+\small
+\section*{Overview of Sleep Stages}
+Your sleep was monitored and scored into the following stages:
+
+\subsection*{ 24-Jun-A1 }
+\begin{center}
+\begin{adjustbox}{width=0.75\textwidth}
+\input{../data/24-Jun-A1.pgf}
+\end{adjustbox}
+\end{center}
+
+\subsection*{ 24-Jun-A2 }
+\begin{center}
+\begin{adjustbox}{width=0.75\textwidth}
+\input{../data/24-Jun-A2.pgf}
+\end{adjustbox}
+\end{center}
+
+\section*{Sleep Stage Distribution}
+Here's a summary of your sleep stage distribution:
+
+\begin{itemize}
+  \item \textbf{Wake:} X\% 
+  \item \textbf{N1:} X\%
+  \item \textbf{N2:} X\%
+  \item \textbf{N3:} X\%
+  \item \textbf{REM:} X\%
+\end{itemize}
+
+Note: Replace 'X\%' with actual percentages from your scoring.
+
+\section*{Additional Notes}
+- [Add any relevant comments or observations about the sleep patterns, anomalies, or noteworthy findings here.]
+
+\section*{Recommendations}
+- [If applicable, include any recommendations based on the sleep study results, like sleep hygiene practices or further tests.]
+
+Thank you for allowing us to analyze your sleep patterns. For any questions or further discussion, please do not hesitate to contact us.
+
+\end{document}

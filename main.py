@@ -122,7 +122,7 @@ sns.histplot(eeg.std(dim=1),label=eeg_ch_name)
 plt.xlim([0,.0003])
 plt.legend()
 plt.title(input_fname)
-plt.savefig('dist.jpg')
+plt.savefig('dist.jpg',bbox_inches='tight')
 
 print(edf_filenames)
 print(raw.ch_names)
