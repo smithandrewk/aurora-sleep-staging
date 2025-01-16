@@ -111,9 +111,9 @@ model = Gandalf()
 model.load_state_dict(torch.load(model_path,map_location='cpu'))
 criterion = torch.nn.CrossEntropyLoss()
 
-edf_filenames = [file for file in os.listdir(f'.') if file.endswith('.edf')]
+edf_filenames = [file for file in os.listdir(f'data') if file.endswith('.edf')]
 input_fname = edf_filenames[0]
-raw = read_raw_edf(input_fname=input_fname)
+raw = read_raw_edf(input_fname=f'data/{input_fname}')
 data = raw.get_data(picks=eeg_ch_name)
 eeg = torch.from_numpy(data[0]).float()
 eeg = eeg.view(-1,5000)
@@ -137,4 +137,4 @@ with torch.no_grad():
     logits = torch.cat([model(Xi.to(device)).cpu() for Xi in tqdm(dataloader)])
     y_pred = logits.softmax(dim=1).argmax(axis=1)
 
-pd.DataFrame(y_pred,columns=['y_pred']).to_csv(f'{input_fname.replace('.edf','')}.csv',index=False)
+pd.DataFrame(y_pred,columns=['y_pred']).to_csv(f'data/{input_fname.replace('.edf','')}.csv',index=False)
