@@ -1,57 +1,27 @@
 \documentclass{article}
 \usepackage{geometry}
-\geometry{margin=0.4in}
-\usepackage{helvet} % This package provides Helvetica, a sans-serif font
+\geometry{margin=.8in}
 \renewcommand{\familydefault}{\sfdefault} % Sets the default font to sans-serif
+\usepackage{helvet} % This package provides Helvetica, a sans-serif font
 \usepackage{pgfplots}
 \usepackage{adjustbox}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyhead[L]{Sleep Staging Report | Report as of 17 Jan 2025 15:23, EST | Author: Andrew Smith | Model: Gandalf} % Left side of header
+\fancyhead[C]{\nouppercase{\leftmark}} % Center, \leftmark is the current section title
+\fancyhead[R]{\thepage} % Right side, showing page number
 
 \begin{document}
 
-\noindent\small Sleep Staging Report | Report as of 16 Jan 2025 15:33, EST | Author: Andrew Smith
-\vspace{5pt}
-\hrule
-\vspace{10pt}
 \noindent\Huge\textbf{Courtney January 2025}
-\vspace{40pt}
+\vspace{10pt}
 \hrule
   
 \small
 \section*{Overview of Sleep Stages}
 Your sleep was monitored and scored into the following stages:
-
-\subsection*{ 24-Jun-A1 }
-\begin{center}
-\begin{adjustbox}{width=0.75\textwidth}
-\input{../data/24-Jun-A1.pgf}
-\end{adjustbox}
-\end{center}
-
-\subsection*{ 24-Jun-A2 }
-\begin{center}
-\begin{adjustbox}{width=0.75\textwidth}
-\input{../data/24-Jun-A2.pgf}
-\end{adjustbox}
-\end{center}
-
-\section*{Sleep Stage Distribution}
-Here's a summary of your sleep stage distribution:
-
-\begin{itemize}
-  \item \textbf{Wake:} X\% 
-  \item \textbf{N1:} X\%
-  \item \textbf{N2:} X\%
-  \item \textbf{N3:} X\%
-  \item \textbf{REM:} X\%
-\end{itemize}
-
-Note: Replace 'X\%' with actual percentages from your scoring.
-
-\section*{Additional Notes}
-- [Add any relevant comments or observations about the sleep patterns, anomalies, or noteworthy findings here.]
-
-\section*{Recommendations}
-- [If applicable, include any recommendations based on the sleep study results, like sleep hygiene practices or further tests.]
+\input{insert.tex} % Changed from \include to \input
 
 Thank you for allowing us to analyze your sleep patterns. For any questions or further discussion, please do not hesitate to contact us.
 

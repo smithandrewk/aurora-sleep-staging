@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.9)  16 JAN 2025 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.9)  17 JAN 2025 15:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -337,8 +337,19 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \sift@deathcycles=\count292
 \@vwid@loff=\dimen281
 \@vwid@roff=\dimen282
-))
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 9.
+)) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -348,20 +359,20 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -371,15 +382,15 @@ LaTeX Font Info:    ... okay on input line 9.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(28.90755pt, 556.4799pt, 28.90755pt)
-* v-part:(T,H,B)=(28.90755pt, 737.15489pt, 28.90755pt)
+* h-part:(L,W,R)=(57.81621pt, 498.66258pt, 57.81621pt)
+* v-part:(T,H,B)=(57.81621pt, 679.33757pt, 57.81621pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=556.4799pt
-* \textheight=737.15489pt
-* \oddsidemargin=-43.36244pt
-* \evensidemargin=-43.36244pt
-* \topmargin=-80.36244pt
+* \textwidth=498.66258pt
+* \textheight=679.33757pt
+* \oddsidemargin=-14.45378pt
+* \evensidemargin=-14.45378pt
+* \topmargin=-51.45378pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -418,28 +429,316 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 9.
+ on input line 15.
 
-(../data/24-Jun-A1.pgf) (../data/24-Jun-A2.pgf)
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 41.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-) [1
+(./insert.tex
+<figs.pdf, id=4, page=1, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 1>
+Package pdftex.def Info: figs.pdf , page1 used on input line 5.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./main.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 8--14
+
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./figs.pdf>]
+<figs.pdf, id=25, page=2, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 2>
+Package pdftex.def Info: figs.pdf , page2 used on input line 18.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--27
+
+ []
+
+<figs.pdf, id=26, page=3, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 3>
+Package pdftex.def Info: figs.pdf , page3 used on input line 31.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[2 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 34--40
+
+ []
+
+<figs.pdf, id=39, page=4, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 4>
+Package pdftex.def Info: figs.pdf , page4 used on input line 44.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[3 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 47--53
+
+ []
+
+<figs.pdf, id=43, page=5, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 5>
+Package pdftex.def Info: figs.pdf , page5 used on input line 57.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[4 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 60--66
+
+ []
+
+<figs.pdf, id=47, page=6, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 6>
+Package pdftex.def Info: figs.pdf , page6 used on input line 70.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[5 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 73--79
+
+ []
+
+<figs.pdf, id=51, page=7, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 7>
+Package pdftex.def Info: figs.pdf , page7 used on input line 83.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[6 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 86--92
+
+ []
+
+<figs.pdf, id=55, page=8, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 8>
+Package pdftex.def Info: figs.pdf , page8 used on input line 96.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[7 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 99--105
+
+ []
+
+<figs.pdf, id=60, page=9, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 9>
+Package pdftex.def Info: figs.pdf , page9 used on input line 109.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[8 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 112--118
+
+ []
+
+<figs.pdf, id=64, page=10, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 10>
+Package pdftex.def Info: figs.pdf , page10 used on input line 122.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[9 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 125--131
+
+ []
+
+<figs.pdf, id=68, page=11, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 11>
+Package pdftex.def Info: figs.pdf , page11 used on input line 135.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[10 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 138--144
+
+ []
+
+<figs.pdf, id=72, page=12, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 12>
+Package pdftex.def Info: figs.pdf , page12 used on input line 148.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[11 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 151--157
+
+ []
+
+<figs.pdf, id=76, page=13, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 13>
+Package pdftex.def Info: figs.pdf , page13 used on input line 161.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[12 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 164--170
+
+ []
+
+<figs.pdf, id=80, page=14, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 14>
+Package pdftex.def Info: figs.pdf , page14 used on input line 174.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[13 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 177--183
+
+ []
+
+<figs.pdf, id=85, page=15, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 15>
+Package pdftex.def Info: figs.pdf , page15 used on input line 187.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[14 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 190--196
+
+ []
+
+<figs.pdf, id=89, page=16, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 16>
+Package pdftex.def Info: figs.pdf , page16 used on input line 200.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[15 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 203--209
+
+ []
+
+<figs.pdf, id=93, page=17, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 17>
+Package pdftex.def Info: figs.pdf , page17 used on input line 213.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[16 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 216--222
+
+ []
+
+<figs.pdf, id=97, page=18, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 18>
+Package pdftex.def Info: figs.pdf , page18 used on input line 226.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[17 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 229--235
+
+ []
+
+<figs.pdf, id=101, page=19, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 19>
+Package pdftex.def Info: figs.pdf , page19 used on input line 239.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[18 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 242--248
+
+ []
+
+<figs.pdf, id=105, page=20, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 20>
+Package pdftex.def Info: figs.pdf , page20 used on input line 252.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[19 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 255--261
+
+ []
+
+<figs.pdf, id=110, page=21, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 21>
+Package pdftex.def Info: figs.pdf , page21 used on input line 265.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[20 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 268--274
+
+ []
+
+<figs.pdf, id=114, page=22, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 22>
+Package pdftex.def Info: figs.pdf , page22 used on input line 278.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[21 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 281--287
+
+ []
+
+<figs.pdf, id=118, page=23, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 23>
+Package pdftex.def Info: figs.pdf , page23 used on input line 291.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[22 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 294--300
+
+ []
+
+<figs.pdf, id=122, page=24, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 24>
+Package pdftex.def Info: figs.pdf , page24 used on input line 304.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[23 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 307--313
+
+ []
+
+<figs.pdf, id=126, page=25, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 25>
+Package pdftex.def Info: figs.pdf , page25 used on input line 317.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[24 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 320--326
+
+ []
+
+<figs.pdf, id=130, page=26, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 26>
+Package pdftex.def Info: figs.pdf , page26 used on input line 330.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[25 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 333--339
+
+ []
+
+<figs.pdf, id=135, page=27, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 27>
+Package pdftex.def Info: figs.pdf , page27 used on input line 343.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[26 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 346--352
+
+ []
+
+<figs.pdf, id=139, page=28, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 28>
+Package pdftex.def Info: figs.pdf , page28 used on input line 356.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[27 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 359--365
+
+ []
+
+<figs.pdf, id=143, page=29, 576.00993pt x 547.19936pt>
+File: figs.pdf Graphic file (type pdf)
+<use figs.pdf, page 29>
+Package pdftex.def Info: figs.pdf , page29 used on input line 369.
+(pdftex.def)             Requested size: 576.00851pt x 547.19801pt.
+[28 <./figs.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 372--378
+
+ []
+
+) [29 <./figs.pdf>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 23521 strings out of 480247
- 616333 string characters out of 5896152
- 1765129 words of memory out of 5000000
- 41093 multiletter control sequences out of 15000+600000
- 481442 words of font info for 44 fonts, out of 8000000 for 9000
+ 23701 strings out of 480247
+ 619414 string characters out of 5896152
+ 1013181 words of memory out of 5000000
+ 41278 multiletter control sequences out of 15000+600000
+ 480650 words of font info for 42 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,6n,103p,763b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on main.pdf (2 pages, 122448 bytes).
+ 99i,11n,103p,763b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (29 pages, 1360123 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 164 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,1 +1,5 @@
 - [ ] requirements.txt
+# TODO: compare to underlying distribution
+# TODO: confidence on hypnogram
+# TODO: check EEG scale
+# TODO: check whether channel is EEG at all or EMG
